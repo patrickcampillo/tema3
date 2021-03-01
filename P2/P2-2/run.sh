@@ -8,7 +8,7 @@
 docker run \
     --detach \
     --rm \
-    -p8086:80 \
+    -p8080:80 \
     -v name:/data \
-    --name="apachepcc" \
-    apachepcc
+    --name="authpcc" \
+    authpcc

@@ -9,7 +9,7 @@
 docker run \
     --rm \
     -p8080:80 \
-    --name="evilapache" \
-    -v "pwd":/home/app \
+    --name="authpcc" \
+    -v `pwd`:/home/app \
     -v name:/data \
-    evilapache
+    authpcc

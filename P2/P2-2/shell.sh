@@ -9,4 +9,4 @@
 ./stop.sh
 
 # fire up the container with shell (/bin/bash)
-docker run -it --rm -v name:/data --name evilapache evilapache /bin/bash
+docker run -it --rm --name authpcc authpcc /bin/bash

@@ -8,7 +8,7 @@
 docker run \
     --detach \
     --rm \
-    -p8086:80 \
-    -v name:/data \
+    -p8080:80 \
     --name="evilapache" \
+    -v name:/data \
     evilapache
