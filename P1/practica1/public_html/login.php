@@ -1,4 +1,7 @@
 <?php
+if ($_GET["PHPSESSID"]){
+	session_id($_GET["PHPSESSID"]);
+}
 session_start();
 
 //En una aplicación real, los usuarios estarían almaenados en la base de datos
