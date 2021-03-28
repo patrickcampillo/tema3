@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!$_SESSION['ya_registrado']){
-	header('Location: login.php');
+	header('Location: autenticacion.php');
 }
 if ($_SESSION['ROL'] != "USER"){
 	header('Location: no-autorizado.php');
